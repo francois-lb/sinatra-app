@@ -1,3 +1,80 @@
 body {
-  background: lightblue;
+    BACKGROUND-SIZE: 100%;
+  }
+div.menu {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    margin-top: 7px;
+    position: relative;
+    text-align: center;
+
+  }
+li {
+    display: inline-block;
+    width: 230px;
+    padding: 20px;
+    font-family: sans-serif;;
+    text-align: center;
+    font-size: x-large;
+    color: white;
+    font-variant: small-caps;
+  }
+
+h1 {
+    font-family: monospace;
+    font-size: 150px;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.73)
+    }
+p {
+    display: block;
+    width: 95%;
+    text-align: justify;
+  }
+section {
+    width: 100%;
+    height: 100%;
+}
+
+
+a {
+    color:white;
+    text-decoration: none;
+}
+a.link.block {
+    background-color: rgba(234, 28, 28, 0.69);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    height: auto;
+    font-family: monospace;
+    font-size: 16px;
+    margin-top: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+footer {
+    width: 100%;
+    display: block;
+    float: left;
+    text-align: center;
+    background-color: white;
+  }
+    a.social__linkedin {
+       color: #7878bb;
+     }
+    a.social__facebook {
+        color: #2874ec;
+    }
+    a.social__instagram {
+        color: red;
+    }
+.header {
+  background-image: url("https://scontent-amt2-1.xx.fbcdn.net/v/t1.0-9/1476633_10208057738862695_236489559109323438_n.jpg?oh=867b131cc0f97c29426e430c35e55d0c&oe=583170DA");
+  background-size: cover;
+  height:100vh;
 }
